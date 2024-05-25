@@ -22,17 +22,17 @@
 ## Technologies and Tools Used:
 
 - Python: Programming language for implementation and data manipulation.
-  ![Python](python_logo.png)
+  ![Python](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/200px-Python-logo-notext.svg.png)
   
 - PyTorch Geometric: Library for implementing graph neural networks and handling graph data.
-  ![PyTorch Geometric](pytorch_geometric_logo.png)
+  ![PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/_images/pyg_logo_text.svg)
   
 - NetworkX: Library for creating and manipulating complex networks and graphs.
-  ![NetworkX](networkx_logo.png)
+  ![NetworkX](https://networkx.org/_static/networkx_logo.svg)
   
 - NumPy: Used for numerical computations and handling traffic data arrays.
-  ![NumPy](numpy_logo.png)
+  ![NumPy](https://numpy.org/images/logos/numpy.svg)
   
 - Matplotlib: Visualized traffic data and predictions for real-time monitoring and analysis.
-  ![Matplotlib](matplotlib_logo.png)
+  ![Matplotlib](https://matplotlib.org/stable/_static/logo2_compressed.svg)
 
