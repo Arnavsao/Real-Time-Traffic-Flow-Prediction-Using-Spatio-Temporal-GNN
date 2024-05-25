@@ -1,47 +1,38 @@
-# Real-Time Traffic Prediction System Using GNNs
+# Road Traffic Prediction using SpatioTemporalGCN
 
-## Project Overview
-### Introduction
-This project involves predicting traffic flow in a simulated road network using Graph Neural Networks (GNNs) and Graph Convolutional Networks (GCNs). It leverages a machine learning model to analyze and predict traffic patterns in real-time, which could be beneficial for traffic management and planning.
+This project involves simulating and predicting road traffic flow using a SpatioTemporal Graph Convolutional Network (GCN). The goal is to predict future traffic flow dynamics based on historical data from a road network graph.
 
-### Objective
-To develop a system that can predict traffic flow in real-time based on historical traffic data using advanced graph-based neural networks.
+## Overview
 
-## Key Concepts and Technologies
-### Graph Neural Networks (GNNs)
-GNNs are a class of neural networks designed to handle data represented as graphs. They are particularly useful for problems where relationships between entities (nodes) are important.
+The project consists of the following steps:
 
-### Graph Convolutional Networks (GCNs)
-A type of GNN that applies convolution operations on graphs, similar to how Convolutional Neural Networks (CNNs) apply convolutions to images. GCNs are effective in capturing the spatial structure of graph data.
+1. **Creating Road Network Graph**: Generates a simple road network graph using NetworkX with a 5x5 grid structure.
 
-### Libraries and Tools
-- PyTorch Geometric: A library for implementing GNNs using PyTorch.
-- NetworkX: Used for creating and manipulating complex networks/graphs.
-- NumPy and Pandas: For data manipulation and analysis.
-- Matplotlib: For visualization.
+2. **Generating Traffic Data**: Simulates random traffic flow data for the nodes in the graph.
 
-## Project Structure
-### Data Generation
-Simulate traffic data on a grid-based road network using NetworkX. Each node represents an intersection, and edges represent roads.
+3. **Visualizing the Graph**: Visualizes the road network graph using Matplotlib.
 
-### Model Implementation
-Develop a Spatio-Temporal GCN model:
-- Spatial Component: Use GCN layers to capture spatial dependencies in the traffic data.
-- Temporal Component: Use an LSTM layer to capture temporal dependencies in the traffic data.
-- Output: Predict traffic flow for the next few time steps based on historical data.
+4. **Converting to PyTorch Geometric Data**: Converts the NetworkX graph to a PyTorch Geometric data object and assigns traffic data as node features.
 
-### Training the Model
-Train the model on simulated traffic data using PyTorch. Define a loss function (MSE) and an optimizer (Adam) to train the model over multiple epochs.
+5. **Defining SpatioTemporalGCN Model**: Defines a SpatioTemporalGCN model using PyTorch Geometric, which consists of Graph Convolutional layers followed by an LSTM layer and a linear layer for prediction.
 
-### Real-Time Prediction
-Simulate real-time traffic prediction by continuously updating the model with new traffic data and making predictions for future traffic flow.
+6. **Preparing Data for Training**: Prepares the dataset for training, creating a DataLoader for batches of graphs.
 
-## Code Explanation
-### Create the Road Network
+7. **Training Loop**: Trains the SpatioTemporalGCN model using MSE loss and Adam optimizer.
+
+8. **Real-Time Prediction Simulation**: Simulates real-time prediction of future traffic flow by iteratively predicting traffic for subsequent time steps and updating the input data.
+
+## Usage
+
+To run the project, follow these steps:
+
+1. Install the required dependencies: `networkx`, `numpy`, `pandas`, `scikit-learn`, `matplotlib`, and `torch`.
+
+2. Execute the Python script provided in this repository.
+
+3. The script will generate traffic data, train the SpatioTemporalGCN model, and simulate real-time predictions.
+
+## Code
+
 ```python
-import networkx as nx
-
-def create_road_network():
-    G = nx.grid_2d_graph(5, 5)  # Create a 5x5 grid graph
-    G = nx.convert_node_labels_to_integers(G)  # Convert node labels to integers
-    return G
+# Add the Python code here
