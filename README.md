@@ -23,7 +23,7 @@ https://github.com/Arnavsao/Real-Time-Traffic-Flow-Prediction-Using-Spatio-Tempo
 ## Technologies and Tools Used:
 
 - Python: A programming language for implementation and data manipulation.
-  ![Python](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/200px-Python-logo-notext.svg)
+  ![Python]([https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/200px-Python-logo-notext.svg](https://banner2.cleanpng.com/20190623/yp/kisspng-python-computer-icons-programming-language-executa-5d0f0aa79779a6.6143656815612668556205.jpg))
 
 - PyTorch Geometric: Library for implementing graph neural networks and handling graph data.
   ![PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/_images/pyg_logo_text.svg)
