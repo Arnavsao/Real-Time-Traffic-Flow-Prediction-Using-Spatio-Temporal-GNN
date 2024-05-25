@@ -22,17 +22,16 @@
 ## Technologies and Tools Used:
 
 - Python: Programming language for implementation and data manipulation.
-  ![Python](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/200px-Python-logo-notext.svg.png)
-  
-- PyTorch Geometric: Library for implementing graph neural networks and handling graph data.
-  ![PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/_images/pyg_logo_text.svg)
-  
-- NetworkX: Library for creating and manipulating complex networks and graphs.
-  ![NetworkX](https://networkx.org/_static/networkx_logo.svg)
-  
-- NumPy: Used for numerical computations and handling traffic data arrays.
-  ![NumPy](https://numpy.org/images/logos/numpy.svg)
-  
-- Matplotlib: Visualized traffic data and predictions for real-time monitoring and analysis.
-  ![Matplotlib](https://matplotlib.org/stable/_static/logo2_compressed.svg)
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/200px-Python-logo-notext.svg.png" alt="Python" width="100"/>
 
+- PyTorch Geometric: Library for implementing graph neural networks and handling graph data.
+  <img src="https://pytorch-geometric.readthedocs.io/en/latest/_images/pyg_logo_text.svg" alt="PyTorch Geometric" width="200"/>
+
+- NetworkX: Library for creating and manipulating complex networks and graphs.
+  <img src="https://networkx.org/_static/networkx_logo.svg" alt="NetworkX" width="200"/>
+
+- NumPy: Used for numerical computations and handling traffic data arrays.
+  <img src="https://numpy.org/images/logos/numpy.svg" alt="NumPy" width="100"/>
+
+- Matplotlib: Visualized traffic data and predictions for real-time monitoring and analysis.
+  <img src="https://matplotlib.org/stable/_static/logo2_compressed.svg" alt="Matplotlib" width="200"/>
