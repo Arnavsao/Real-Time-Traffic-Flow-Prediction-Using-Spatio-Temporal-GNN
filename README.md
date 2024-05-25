@@ -15,34 +15,25 @@
   - Achieved real-time prediction by continuously updating the model with new traffic data and visualizing predictions.
 
 
-<img width="528" alt="Screenshot 2024-05-25 at 10 03 59 AM" src="https://github.com/Arnavsao/Real-Time-Traffic-Flow-Prediction-Using-Spatio-Temporal-GNN/assets/140349606/6f2fb682-90c0-4f97-afa2-2652cacd560f">
 
-
+https://github.com/Arnavsao/Real-Time-Traffic-Flow-Prediction-Using-Spatio-Temporal-GNN/assets/140349606/2e5daf6c-3dc0-41a4-8c7f-a865f8685a14
 
 
 
 ## Technologies and Tools Used:
 
-<div style="display: flex; justify-content: center; align-items: center; background-color: white;">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/200px-Python-logo-notext.svg.png" alt="Python" width="150"/>
-  <img src="https://pytorch-geometric.readthedocs.io/en/latest/_images/pyg_logo_text.svg" alt="PyTorch Geometric" width="150"/>
-  <img src="![image](https://github.com/Arnavsao/Real-Time-Traffic-Flow-Prediction-Using-Spatio-Temporal-GNN/assets/140349606/b52e83db-e77d-4c03-a891-85517dd3a0a4)
-" alt="NetworkX" width="150"/>
-  <img src="https://numpy.org/images/logos/numpy.svg" alt="NumPy" width="150"/>
-  <img src="https://matplotlib.org/stable/_static/logo2_compressed.svg" alt="Matplotlib" width="150"/>
-</div>
-
-- Python: Programming language for implementation and data manipulation.
-
+- Python: A programming language for implementation and data manipulation.
+  ![Python](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/200px-Python-logo-notext.svg)
 
 - PyTorch Geometric: Library for implementing graph neural networks and handling graph data.
-
+  ![PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/_images/pyg_logo_text.svg)
 
 - NetworkX: Library for creating and manipulating complex networks and graphs.
-
+  ![NetworkX](https://networkx.org/_static/networkx_logo.svg)
 
 - NumPy: Used for numerical computations and handling traffic data arrays.
-
+  ![NumPy](https://numpy.org/images/logos/numpy.svg)
 
 - Matplotlib: Visualized traffic data and predictions for real-time monitoring and analysis.
+  ![Matplotlib](https://matplotlib.org/stable/_static/logo2_compressed.svg)
 
