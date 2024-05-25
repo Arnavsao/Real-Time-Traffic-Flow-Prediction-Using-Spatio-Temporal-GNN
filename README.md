@@ -26,7 +26,8 @@
 <div style="display: flex; justify-content: center; align-items: center; background-color: white;">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/200px-Python-logo-notext.svg.png" alt="Python" width="150"/>
   <img src="https://pytorch-geometric.readthedocs.io/en/latest/_images/pyg_logo_text.svg" alt="PyTorch Geometric" width="150"/>
-  <img src="https://networkx.org/_static/networkx_logo.svg" alt="NetworkX" width="150"/>
+  <img src="![image](https://github.com/Arnavsao/Real-Time-Traffic-Flow-Prediction-Using-Spatio-Temporal-GNN/assets/140349606/b52e83db-e77d-4c03-a891-85517dd3a0a4)
+" alt="NetworkX" width="150"/>
   <img src="https://numpy.org/images/logos/numpy.svg" alt="NumPy" width="150"/>
   <img src="https://matplotlib.org/stable/_static/logo2_compressed.svg" alt="Matplotlib" width="150"/>
 </div>
